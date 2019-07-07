@@ -1,0 +1,5 @@
+#Broadcast adress
+ifconfig | grep broadcast | cut -d ' ' -f 6
+
+# IP adresses 
+arp -a | cut -d '(' -f 2 | cut -d ')' -f 1
