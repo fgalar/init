@@ -1,0 +1,2 @@
+lorsque l'on tape la commande 'nslookup': une des adresse IP  slash16.org est 13.32.211.212.
+lorsque l'on retrace (grace nslookup, encore !)l'IP publique on voit que nous sommes rediriges sur des serveurs/hebergeurs amazonaws qui appartiennent a Amazon.

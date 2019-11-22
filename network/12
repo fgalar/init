@@ -1,0 +1,4 @@
+ifconfig | grep broadcast | cut -d ' ' -f 2
+
+#XX.XX.--.-- premiers nombres > represente le routeur 
+#--.--.XX.XX > represente l'adresse de l'appareil reconnu par le routeur grace a son adresse MAC
