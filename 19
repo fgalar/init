@@ -1,0 +1,14 @@
+apparmor
+console-setup.sh
+cron
+dbus
+hwclock.sh
+keyboard-setup.sh
+kmod
+networking
+procps
+rsyslog
+ssh
+sudo
+udev
+On appelle ces programmes des DEAMONS
