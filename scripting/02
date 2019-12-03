@@ -1,0 +1,7 @@
+#!/bin/sh
+clear
+echo "Users log are:\t"
+who | grep "pts/"
+echo "Who wan't you deleted?"
+read Reslt
+sudo pkill -u $Reslt

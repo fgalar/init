@@ -1,0 +1,25 @@
+##!/bin/sh
+# echo "QUELQUES VARIABLES D ENVIRONNEMENT\n$HOME,\t$USER,\t$PATH,\t$IFS ...\n"
+# echo "arguments passe a la fonction:"$*
+# echo "le nombre d'argument:"$#
+# echo "code de retour de la derniere operation:"$?
+# echo "le nom du script:"$0
+# echo "l'argument n:"$1
+# echo "le PID de la derniere commande lancee:"$!
+
+clear # Un peu facile si la commande reste au dessus :-)
+until [ $# = 0 ]
+do
+  echo -n "Taper l'option suivante : "
+  read Reslt
+  if [ "$Reslt" = "$1" ]; then
+    echo "Bien joué !"
+  else
+    echo "Non mais quand même !!! C'ÉTAIT $1 ET NON PAS $Reslt PETIT FRIPON !!!"
+    sleep 3
+    echo "Donc je te bannis de ubuntu-fr.org ! Et toc !! Tu ne peux rien contre moi !!!"
+    exit 1
+  fi
+  shift # On défile
+done
+echo "Vous avez réussi !"
