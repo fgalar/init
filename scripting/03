@@ -1,0 +1,20 @@
+#!/bin/sh
+clear
+sudo apt-get install git
+sudo apt-get install vim
+clear
+while :; do
+	echo -n "If you have already a vim config, it will be erase.\n Do you wan't continue? YES/no :"
+	read Rsp
+	if [ "$Rsp" = "YES" ]; then
+		rm -rf ~/.vim/
+		git clone https://github.com/fgalar/my_vimrc.git ~/.vim/
+		exit 0;
+	else
+		echo -n "Wan't to quit? Y/n:"
+		read Yn
+		if [ "$Yn" = "Y" ] || [ "$Yn" = "y" ]; then
+			exit 0;
+		fi
+	fi
+done

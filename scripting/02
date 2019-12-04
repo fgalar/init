@@ -1,7 +1,21 @@
 #!/bin/sh
+
 clear
 echo "Users log are:\t"
 who | grep "pts/"
-echo "Who wan't you deleted?"
-read Reslt
-sudo pkill -u $Reslt
+echo "Who do you wan't to log out ? login/nobody"
+read User
+if [ "$User" = "nobody" ]; then
+	echo "ok, bye"
+	exit 0
+else
+	sudo pkill -u $User
+fi
+echo "Do you wan't to delete this account user -> "$User" ? Y/N"
+read Rsp
+if [ "$Rsp" = "Y" ] || [ "$Rsp" = "y" ]; then
+	sudo userdel -r $User
+	echo "\033[1;30;47m ok, don't search for $User, because (s)he don't exists anymore ;P\033[0m"
+else
+	echo "\033[1;30;47m ok, Bisous !\033[0m " 
+fi
