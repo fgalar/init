@@ -1,1 +1,4 @@
+# 07) Commande pour interroger un DNS externe sur le nom de domaine slash16.org :
+
 nslookup slash16.org 8.8.8.8
+

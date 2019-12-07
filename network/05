@@ -1,1 +1,4 @@
+# 05) Commande pour identifier l'IP du serveur DNS qui repond sur le domaine slash16.org :
+
 nslookup slash16.org | grep Server | cut -c 10-
+

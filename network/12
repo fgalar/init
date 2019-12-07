@@ -1,3 +1,4 @@
+# 12) Commande permettant de trouver l'IP qui nous a ete assigne par le dhcp
 ifconfig | grep broadcast | cut -d ' ' -f 2
 
 #XX.XX.--.-- premiers nombres > represente le routeur 

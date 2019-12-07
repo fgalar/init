@@ -1,2 +1,4 @@
-le reseau local a une adresse IP commancant par 10, a partir de dc3(62.210.35.1)
-nous sommes sortis du reseau local.
+# 11) Donner le nom et l'IP du materiel qui fait le lien entre le reseau local et l'exterieur :
+le reseau local(routeur) a des adresses IP commancant par 10, a partir de dc3, nous
+quittons le reseau local. Le materiel qui fait le lien avec l'exterieur est le
+nat-1(10.60.1.11). 

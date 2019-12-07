@@ -1,10 +1,8 @@
-#Les caracteristiques de l'interface Ethernet:
+# 02) Les caracteristiques de l'interface Ethernet:
 ifconfig en0
 
-#Broadcast adress
-echo "a)"
+# a) Broadcast adress
 ifconfig | grep broadcast | cut -d ' ' -f 6
 
-# IP adresses 
-echo "b)"
+# b) IP adresses 
 arp -a | cut -d '(' -f 2 | cut -d ')' -f 1

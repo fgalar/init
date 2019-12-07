@@ -1,2 +1,5 @@
+# 06) Recuperez le path complet du fichier dans lequel est ecrit l'adresse IP du serveur DNS que vou utilisez :
+
 /etc/resolv.conf 
 #defini les noms de domaine (Domain Name System)
+

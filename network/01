@@ -1,2 +1,4 @@
-#affiche la liste des noms des interfaces reseau
+# 01) affiche la liste des noms des interfaces reseau
+
 ifconfig -l
+
