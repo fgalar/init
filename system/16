@@ -1,1 +1,3 @@
-/etc/init.d/cron est un service qui permet de lancer des taches a horaires regulieres
+# 16 ) Un service qui permet de lancer une taches a horaires regulieres :
+
+/etc/init.d/cron

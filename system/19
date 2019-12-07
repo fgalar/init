@@ -1,3 +1,5 @@
+# 19) Retour de commande qui indique le nom des services qui se lancent automatiquement lorsque la machine boot : ls /etc/init.d/ 
+
 apparmor
 console-setup.sh
 cron
@@ -11,4 +13,5 @@ rsyslog
 ssh
 sudo
 udev
-On appelle ces programmes des DEAMONS
+
+# On appelle ces programmes des DEAMONS

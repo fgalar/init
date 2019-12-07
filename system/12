@@ -1,1 +1,3 @@
+# 12) Determinez la taille exacte de chaque dossier de /var d'une maniere humainement comprehensible suivi du chemin de celui ci :
+
 sudo du -sh /var/*

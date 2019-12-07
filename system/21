@@ -1,1 +1,5 @@
-who
+# 21) Commande qui permet de lister tous les utilisateurs reels de la machine :
+
+who 
+
+#ou la commande 'users' qui donne moins de details... 

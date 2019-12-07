@@ -1,2 +1,5 @@
-On peut se connecter a ce nouvel User de la meme maniere que pour les autres. C'est seulement le user qui change
-ex : New_User@IP_de_la_machine;
+# 23) Expliquez comment se connecter en tant que ce nouvel utilisation :
+
+On peut se connecter a ce nouvel User de la meme maniere que pour les autres. C'est seulement le user qui change et le mot de passe (of course);
+ex : ssh New_User@IP_de_la_machine; puis faire le mot de passe du nouvel user.
+     

@@ -1,1 +1,5 @@
-apt-cache pkgnames
+# 24) commande qui permet de lister tous les packages installes sur la machine:
+
+dpkg --get-selections | tr '\t' ' ' | cut -d ' ' -f1
+
+#dpkg "debian package" : outils integre de gestion des paquets;

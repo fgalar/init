@@ -1,1 +1,3 @@
+# 04) Quelle commande donne le temps depuis lequel votre systeme a ete demarre la derniere fois ?
+
 uptime -p

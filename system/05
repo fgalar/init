@@ -1,1 +1,2 @@
+# 05) Une commande qui determine l etat du service SSH
 /etc/init.d/ssh status

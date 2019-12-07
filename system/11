@@ -1,1 +1,3 @@
+# 11) Commande  qui permet d'afficher l espace 'disponible et utilise', sur le systeme d  une maniere humainement comprehensible 
+
 sudo df -h

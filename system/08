@@ -1,1 +1,3 @@
+# 08) Quel fichier contient les cles RSA des machines autorisees a se connecter via SSH :
+
 ~/.ssh/authorized_keys

@@ -1,1 +1,2 @@
+# 06) Commande pour redemarrer le service ssh
 /etc/init.d/ssh restart

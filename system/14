@@ -1,1 +1,4 @@
+# 14) Une commande qui permet de lancer en background "tail -f /var/log/syslog" (ctrl + Z pour quit
+# )
+
 sudo tail -f /var/log/syslog

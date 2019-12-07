@@ -1,1 +1,3 @@
+# 17) Une commande qui permet de se connecter en ssh sur la machine (Pour rappel : La partie 2 s'effectue deja sur la machine...)
+
 ssh dev@localhost

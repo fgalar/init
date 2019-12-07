@@ -1,1 +1,3 @@
-hostname
+# 2) Commande permettant de renommer son systeme :
+
+hostname New_Name

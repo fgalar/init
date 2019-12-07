@@ -1,1 +1,3 @@
-ls /home/
+# 20) Commande qui permet de  lister tous les utilisateurs existants sur la machine
+
+cat /etc/passwd | cut -d: -f1
